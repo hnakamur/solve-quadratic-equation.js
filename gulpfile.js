@@ -24,7 +24,7 @@ gulp.task('browser-test', function (callback) {
     if (err) throw new gutil.PluginError('webpack-dev-server', err);
 
     gulp.src('./test/index.html')
-      .pipe(open('', {url: 'http://localhost:8080/test/index.html'}));
+      .pipe(open('', {url: 'http://localhost:8080/webpack-dev-server/test/index.html'}));
   });
 });
 

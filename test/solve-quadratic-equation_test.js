@@ -1,4 +1,4 @@
-var solveQuadraticEquation = require("../solve-quadratic-equation");
+var solveQuadraticEquation = require("../index");
 var assert = require("assert");
 
 describe('solveQuadraticEquation', function(){

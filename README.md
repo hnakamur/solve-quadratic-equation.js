@@ -9,7 +9,7 @@ var roots = solveQuadraticEquation(1, -5, 6);
 // roots = [2, 3];
 ```
 
-See the comment in [solve-quadratic-equation.js](solve-quadratic-equation.js) for detail.
+See the comment in [index.js](index.js) for detail.
 
 ## Develop
 

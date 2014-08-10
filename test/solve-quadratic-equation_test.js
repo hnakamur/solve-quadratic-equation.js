@@ -1,7 +1,7 @@
-var solveQuadraticEquation = require("../index");
+var solveQuadraticEquation = require("../solve-quadratic-equation");
 var assert = require("assert");
 
-describe('quadraticEquation', function(){
+describe('solveQuadraticEquation', function(){
   describe('Two roots', function(){
     it('should return two roots for x * x - 5 * x + 6 = 0', function(){
       var roots = solveQuadraticEquation(1, -5, 6);

@@ -27,7 +27,7 @@ describe('quadraticEquation', function(){
   });
 
   describe('No root', function(){
-    it('should return no root for x * x 1 = 0', function(){
+    it('should return no root for x * x + 1 = 0', function(){
       var roots = solveQuadraticEquation(1, 0, 1);
       assert.equal(0, roots.length);
     });

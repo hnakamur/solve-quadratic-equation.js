@@ -20,16 +20,15 @@
   },
   "homepage": "https://github.com/hnakamur/solve-quadratic-equation.js",
   "devDependencies": {
-    "assert": "^1.1.1",
-    "css-loader": "^0.7.0",
+    "assert": "^1.4.1",
+    "css-loader": "^0.28.9",
     "gulp": "^3.8.7",
-    "gulp-mocha": "^0.5.2",
-    "gulp-open": "^0.2.8",
-    "gulp-util": "^3.0.0",
-    "jquery": "^2.1.1",
-    "mocha": "^1.21.4",
+    "gulp-mocha": "^5.0.0",
+    "gulp-open": "^2.1.0",
+    "jquery": "^3.3.1",
+    "mocha": "^5.0.0",
     "style-loader": "^0.6.4",
-    "webpack": "^1.3.3-beta1",
-    "webpack-dev-server": "^1.4.9"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }

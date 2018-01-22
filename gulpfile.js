@@ -13,7 +13,6 @@ gulp.task('default', ['browser-test']);
 gulp.task('browser-test', function (callback) {
   var myConfig = Object.create(webpackConfig);
   myConfig.devtool = 'eval';
-  myConfig.debug = true;
 
   new WebpackDevServer(webpack(myConfig), {
     publicPath: '/' + myConfig.output.publicPath,
